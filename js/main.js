@@ -134,7 +134,7 @@ for (var i = 0; i < imageArray.length; i++) {
     slideDiv.className = "slide";
 
     const img = document.createElement("img");
-    img.src = '../images/partner/' + imageArray[i] + '';
+    img.src = 'images/partner/' + imageArray[i] + '';
     img.alt = "Partner Logo";
 
     slideDiv.appendChild(img);
